@@ -90,9 +90,3 @@ write_x_train.close()
 write_y_train = open("y_train.pickle", "wb")
 pickle.dump(y_train, write_y_train)
 write_y_train.close()
-
-read_x_train = open("x_train.pickle","rb")
-x_train = pickle.load(read_x_train)
-
-read_y_train = open("y_train.pickle","rb")
-y_train = pickle.load(read_y_train)
