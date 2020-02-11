@@ -63,3 +63,7 @@ for dense_layer in dense_layers:
 
 #Save the model
 model.save('image_classification_CNN.model')
+
+#print the accuracy on validation data
+val_loss, val_acc = model.evaluate(x_train, y_train)
+print(val_loss, val_acc)
