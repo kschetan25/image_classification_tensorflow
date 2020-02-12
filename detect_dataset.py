@@ -17,7 +17,7 @@ def process_image(file_path):
 
 # load the training model for detection
 trained_model = tf.keras.models.load_model("image_classification_CNN.model")
-image_to_predict = 'cat.jpeg'
+image_to_predict = './test_images/cat.jpeg'
 result = trained_model.predict([process_image(image_to_predict)])
 
 # display the predicted image
