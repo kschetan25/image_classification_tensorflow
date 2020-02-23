@@ -11,7 +11,7 @@ __pycache__/
 build/
 image_dataset/
 test_images/
-logs/
+tensor_logs/
 develop-eggs/
 dist/
 downloads/
